@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Weather from './weather'
+import { Hello } from './hello'
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <div>
         <h1> Hello Sluts! It is now {now.toString()}</h1>
         <Weather />
+        <Hello name="cunt" age="23" />
+        <Hello name="twat" age="33" />
       </div>
     </>
   )

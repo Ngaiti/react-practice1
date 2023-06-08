@@ -1,7 +1,7 @@
-import { useState } from 'react'
 import './App.css'
 import Weather from './weather'
 import { Hello } from './hello'
+import Likecount from './likecount'
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
         <Weather />
         <Hello name="cunt" age="23" />
         <Hello name="twat" age="33" />
+        <Likecount />
       </div>
     </>
   )

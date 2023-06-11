@@ -7,7 +7,7 @@ export default function Likecount() {
     }
     return (
         <>
-            <button onClick={increaseLike}>  O_O {likeCount} </button>
+            <button onClick={increaseLike}>  I don't know {likeCount} </button>
         </>
     )
 }
